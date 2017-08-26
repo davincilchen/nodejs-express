@@ -1,3 +1,5 @@
+//mv views/.jshintrc .
+
 var express = require('express');
 var router = express.Router();
 
