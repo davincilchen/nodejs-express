@@ -5,18 +5,16 @@ var router = express.Router();
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-  res.render('hello');
+  res.render('hello xx');
 });
 
-router.get('/foo', function(req, res, next) {
-  res.send('foo');
+router.get('/coo', function(req, res, next) {
+  res.send('coo');
 });
 
 
 router.get('/bar/1', function(req, res, next) {
-  res.render('bar',{
-      message: '121567'
-  });
+  res.render('bar');
 });
 
 module.exports = router;
